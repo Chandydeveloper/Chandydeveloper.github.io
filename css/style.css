@@ -1,0 +1,921 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    float: left;
+    position: fixed;
+}
+.logo{
+    width: 5%;
+    height: 60px;
+    background-color: red;
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 70px;
+}
+.navbar{
+    width: 73%;
+    height: 60px;
+    background-color: none;
+    float:right ;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.logo a img{
+    width: 100%;
+    height: 60px;
+    border-radius: 70px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline;
+    padding: 10px 28px;
+    line-height: 2.0em;
+    border-bottom: 2px solid green;
+    
+}
+.navbar ul li:hover{
+    display: inline;
+    padding: 10px 28px;
+    line-height: 2.0em;
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li:hover a{
+    color: yellow;
+    text-decoration: none;
+}
+.hero{
+    width: 100%;
+    height: 500px;
+    float: left;
+    background-color: none;
+    background-image: url(../image/pexels-hbozman-1058759.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+.hero1{
+    width: 100%;
+    height: 200px;
+    float: left;
+    background-color: none;
+    background-image: url(../image/pexels-hbozman-1058759.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+.hero_content{
+    width: 30%;
+    height: 200px;
+    float: left;
+    background-color: green;
+    margin-top: 300px;
+    margin-left: 100px;
+    border-top-left-radius: 50px;
+    opacity: 0.8;
+    border-top-right-radius: 20px;
+}
+.hero_content1{
+    width: 30%;
+    height: 70px;
+    float: left;
+    background-color: green;
+    margin-top: 40px;
+    margin-left: 450px;
+    color: white;
+    opacity: 0.8;
+   text-align: center;
+   padding-top: 30px;
+   font-size: 20px;
+   border-radius: 20px;
+}
+.hero_content1 a{
+    color: white;
+}
+.hero_content h1{
+    padding: 0 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+    line-height: 1em;
+}
+.hero_content a{
+    padding: 10px 25px;
+    background-color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    color: green;
+    border: 2px solid green;
+    border-radius: 25px;
+}
+.hero_content a:hover{
+    padding: 10px 25px;
+    background-color: green;
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+#overview{
+    width: 100%;
+    height: 500px;
+    float: left;
+    background-color: none;
+}
+.overview{
+    width: 85%;
+    height: 470px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.overview span{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: green;
+}
+.listo{
+    width: 40%;
+    height: 390px;
+    float: left;
+    background-color: none;
+}
+.desco{
+    width: 57%;
+    height: 390px;
+    float: right;
+    background-color:none;
+}
+.listo ul{
+    list-style: decimal;
+    padding-left: 16px;
+}
+.listo ul li{
+    padding: 5px 0;
+}
+#down{
+    margin-bottom: 35px;
+}
+.desco a{
+    padding: 10px 35px;
+    background-color: white;
+    color: green;
+    border-radius: 5px;
+    border: 1px solid green;
+    text-decoration: none;
+}
+.desco a:hover{
+    padding: 10px 35px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid green;
+    text-decoration: none;
+}
+#promo{
+    width: 100%;
+    height: 450px;
+    float: left;
+    background-color: whitesmoke;
+}
+.promo{
+    width: 85%;
+    height: 420px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.promo h2{
+    color: green;
+}
+.proimage{
+    width: 40%;
+    height: 350px;
+    float: left;
+    background-color: none;
+    background-image: url(../image/pexels-stywo-1054218.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    clip-path: polygon(20% 0%, 0% 20%, 20% 51%, 0% 80%, 20% 100%, 51% 91%, 80% 100%, 100% 80%, 79% 50%, 100% 20%, 80% 0%, 45% 9%);
+}
+.proimage:hover{
+    width: 40%;
+    height: 350px;
+    float: left;
+    background-color: none;
+    background-image: url(../image/pexels-stywo-1054218.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    animation-name: egooyibo;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    position: relative;
+    cursor: pointer;
+    animation-timing-function: ease-in-out;
+    clip-path: polygon(20% 0%, 0% 20%, 20% 51%, 0% 80%, 20% 100%, 51% 91%, 80% 100%, 100% 80%, 79% 50%, 100% 20%, 80% 0%, 45% 9%);
+}
+@keyframes egooyibo{
+    from{transform: translateY(0);}
+    to{transform: translateY(-10px);}
+}
+.procon{
+    width: 57%;
+    height: 350px;
+    float: right;
+    background-color: none;
+}
+.procon h3{
+    color: green;
+}
+#bumove{
+    margin-bottom: 40px;
+}
+.procon a{
+    padding: 11px 33px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid green;
+}
+.procon a:hover{
+    padding: 11px 33px;
+    background-color: white;
+    color: green;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid green;
+}
+#services{
+    width: 100%;
+    height: 600px;
+    float: left;
+}
+.services{
+    width: 85%;
+    height: 550px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.services span{
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  color: green;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.myservice{
+    width: 24%;
+    height: 470px;
+    float: left;
+    background-color: whitesmoke;
+    margin-left: 15px;
+    border-radius: 7px;
+    box-shadow: 0 4px 4px 2px gainsboro;
+}
+.serv{
+    margin-left: 0;
+}
+.serveimage{
+    width: 18%;
+    height: 45px;
+    float: left;
+    background-color: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+.serveimage img{
+    width: 100%;
+    height: 45px;
+    border-radius: 50%;
+}
+.servecont{
+    width: 100%;
+    height: 370px;
+    float: left;
+    background-color: none;
+    margin-top: 20px;
+}
+.servecont h3{
+    color: green;
+    line-height: 0.05em;
+    padding: 0 20px;
+}
+.servecont h3 a{
+    text-decoration: none;
+    color: inherit;
+}
+.servecont p{
+    padding: 0 20px;
+}
+#product{
+    width: 100%;
+    height: 550px;
+    float: left;
+    background-color: whitesmoke;
+}
+.product{
+    width: 85%;
+    height: 530px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.product span{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: green;
+    
+}
+.myproducts{
+    width: 32%;
+    height: 460px;
+    float: left;
+    background-color: white;
+    margin-left: 22px;
+    box-shadow: 0 4px 4px 2px gainsboro;
+    border-radius: 7px;
+}
+.myproducts:hover{
+    width: 32%;
+    height: 460px;
+    float: left;
+    background-color: green;
+    margin-left: 22px;
+    box-shadow: 0 4px 4px 2px gainsboro;
+    border-radius: 7px;
+    color: white;
+    animation: prod 1s linear forwards;
+    position: relative;
+}
+@keyframes prod{
+    from{bottom: 1px;}
+    to{bottom: 2px;}
+}
+.mypros{
+    margin-left: 0;
+}
+.mypros:hover{
+    margin-left: 0;
+}
+.prodimage{
+    width: 100%;
+    height: 280px;
+    float: left;
+    background-color: none;
+}
+.prodcont{
+   width: 100%;
+   height: 180px;
+   float: left;
+   background-color: none;
+}
+.prodimage img{
+    width: 100%;
+    height: 280px;
+}
+.prodcont h3{
+    color: green;
+    line-height: 0.05em;
+    padding: 0 20px;
+}
+.myproducts:hover .prodcont h3{
+    color: white;
+}
+.prodcont p{
+    padding: 0 20px;
+    margin-bottom: 35px;
+}
+.myproducts:hover .prodcont a{
+    margin-left: 20px;
+    padding: 10px 30px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+.prodcont a{
+    margin-left: 20px;
+    padding: 10px 30px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid green;
+}
+.prodcont a:hover{
+    margin-left: 20px;
+    padding: 10px 30px;
+    background-color: white;
+    color: green;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid green;
+}
+#portfolio{
+    width: 100%;
+    height:auto;
+    float: left;
+}
+.portfolio{
+    width: 85%;
+    height: 830px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.portfolio span{
+    width: 100%;
+    text-align: center;
+    color: green;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.myport{
+    width: 32%;
+    height: 350px;
+    float: left;
+    background-color: none;
+    margin-left: 22px;
+    background-image: url(../image/istockphoto-1204331594-612x612.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.myport:hover{
+    width: 32%;
+    height: 350px;
+    float: left;
+    background-color: none;
+    margin-left: 22px;
+    background-image: url(../image/istockphoto-1204331594-612x612.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+    animation: porto 5s linear forwards;
+    cursor: pointer;
+}
+@keyframes porto{
+    0%{background-size: 1000px;}
+    100%{background-size: 1200px;}
+}
+.bless{
+    margin-left: 0;
+}
+ .bless:hover{
+    margin-left: 0;
+}
+.portfo{
+    width: 95%;
+    height: 60px;
+    float: left;
+    background-color: green;
+    margin-left: 10px;
+    margin-top: 285px;
+    display: none;
+    opacity: 0.8;
+}
+.portfo p{
+    width: 60%;
+    padding-left: 20px;
+    float: left;
+    color: white;
+   
+}
+.portfo a{
+    float: left;
+    padding: 7px 20px;
+    background-color: green;
+    border: 2px solid white;
+    margin-top: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+}
+.myport:hover .portfo{
+    display: block;
+}
+.por{
+    margin-top: 20px;
+}
+#team{
+    width: 100%;
+    height: 580px;
+    float: left;
+    background-color: whitesmoke;
+    margin-bottom: 25px;
+}
+.team{
+    width: 85%;
+    height: 330PX;
+    float: left;
+    background-color: none;
+    margin-left: 100PX;
+}
+.team span{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: green;
+}
+.myteams{
+    width: 48%;
+    height: 230px;
+    float: left;
+    background-color:white;
+    margin-left: 15px;
+    box-shadow: 0 4px 4px 2px gainsboro;
+    border-radius: 10px;
+}
+.tin{
+    margin-left: 0;
+}
+.tins{
+    float: right;
+}
+.teamimage{
+    width: 15%;
+    height: 80px;
+    float: left;
+    background-color: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-image: url(../image/360_F_575225818_PQ2ZPHFw51yCcmieutB5bT843nPAPzo3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.teamcont{
+    width: 70%;
+    height: 200px;
+    float: left;
+    background-color: none;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.teamcont a{
+    padding: 8px 20px;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid green;
+}
+.teamcont a:hover{
+    padding: 8px 20px;
+    background-color: white;
+    text-decoration: none;
+    color: green;
+    border-radius: 25px;
+    border: 2px solid green;
+}
+.teamcont p{
+    margin-bottom: 30px;
+}
+.teamcont h4{
+    line-height: 0.05em;
+    color: green;
+}
+.teamcont b{
+    color: green;
+    text-decoration: none;
+    box-shadow: 1px 2px 2px green;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.teas{
+    margin-top: 20px;
+}
+#blog{
+    width: 100%;
+    height: 580px;
+    float: left;
+    background-color: none;
+}
+.blog{
+    width: 85%;
+    height: 550px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.blog span{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: green;
+}
+.myblog{
+    width: 48%;
+    height: 480px;
+    float: left;
+    background-color: whitesmoke;
+   border-radius: 7px;
+   box-shadow: 0 4px 4px 2px gainsboro;
+}
+.bluga{
+    float: right;
+}
+.bloga{
+    margin-left: 0;
+}
+.blogimage{
+    width: 100%;
+    height: 300px;
+    float: left;
+    background-color: none;
+}
+.blogimage img{
+    width: 100%;
+    height: 300px;
+}
+.blogcont{
+    width: 100%;
+    height: 180px;
+    float: left;
+    background-color: none;
+}
+.blogcont h4{
+    line-height: 0.05em;
+    color: green;
+    padding-left: 20px;
+}
+.blogcont p{
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+.blogcont a{
+    padding: 10px 30px;
+    background-color: green;
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid green;
+}
+.blogcont a:hover{
+    padding: 10px 30px;
+    background-color: white;
+    color: green;
+    margin-left: 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 1px solid green;
+}
+/*contact begins*/
+#contact{
+    width:100% ;
+    height: 650px;
+    float: left;
+    background-color: none;
+}
+.contact{
+    width: 85%;
+    height: 620px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.contact span{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: green;
+}
+.map{
+    width: 40%;
+    height: 550px;
+    float: left;
+    background-color: none;
+    border-bottom: 3px solid green;
+    border-top: 3px solid green;
+    box-shadow: 0 4px 4px 2px gainsboro;
+}
+.message{
+    width: 58%;
+    height: 550px;
+    float: right;
+    background-color: none;
+    border-bottom: 3px solid green;
+    border-top: 3px solid green;
+    box-shadow: 0 4px 4px 2px gainsboro;
+}
+.form-group{
+    width: 47%;
+    height: 60px;
+    float: left;
+    background-color: none;
+    margin-left: 13px;
+    margin-top: 20px;
+}
+.form-group input{
+    width: 97%;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+    outline-color: green;
+
+}
+.cake{
+    margin-top: 10px;
+}
+.subject{
+    width: 97.4%;
+}
+.mess{
+    background-color: none;
+    height: 230px;
+}
+.mess textarea{
+    border:  2px solid gainsboro;
+    outline-color: green;
+    border-radius: 5px;
+}
+.buts{
+    text-align: center;
+}
+.buts button{
+    padding: 10px 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border:1px solid green;
+    background-color: green;
+    color: white;
+}
+.buts button:hover{
+    padding: 10px 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border:1px solid green;
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}
+.mapping{
+    width: 93%;
+    height: 60px;
+    float: left;
+    background-color: none;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.mapping h4{
+    line-height: 0.05em;
+    margin-bottom: 0;
+    color: green;
+}
+.mymaps{
+    margin-top: 10px;
+}
+.myexpand{
+    height: 300px;
+}
+#footer{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.main_footer{
+    width: 100%;
+    height: 350px;
+    float: left;
+    background-color: whitesmoke;
+}
+.minor_footer{
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-color: green;
+}
+.minor_footer p{
+    margin-left: 100px;
+    color: white;
+    margin-top: 35px;
+}
+.myfooter{
+    width: 85%;
+    height: 340px;
+    float: left;
+    background-color: none;
+    margin-left: 100px;
+}
+.footer{
+    width: 24%;
+    height: 340px;
+    float: left;
+    background-color: none;
+    margin-left: 15px;
+}
+.foo{
+    margin-left: 0;
+}
+.mylogo{
+    width: 25%;
+    height: 65px;
+    float: left;
+    background-color: none;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.mylogo a img{
+    width: 100%;
+    height: 65px;
+    border-radius: 50px;
+}
+.foo p{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.footer h6{
+    font-size: 18px;
+    color: green;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer ul li{
+    padding: 7px 0;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+    color: green;
+}
+.footer input{
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+    outline-color: green;
+}
+.footer button{
+    padding: 11px 15px;
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    cursor: pointer;
+}

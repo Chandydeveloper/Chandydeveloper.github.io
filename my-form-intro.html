@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Intro</title>
+</head>
+<body>
+    <h1>Form Intro</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <table cellspacing="10px">
+            <tr>
+                <td>Full Name:</td>
+                <td>
+                    <input type="text" name="fullname" id="" placeholder="Enter full name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td>
+                    <input type="text" name="address" id="" placeholder="Enter address" required>
+                </td>
+            </tr>
+            <tr>
+                <td>D.O.B.:</td>
+                <td>
+                    <input type="date" name="dob" id=""  required>
+                </td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td>
+                    <input type="number" min="0" max="100000000000" name="phone" id="" placeholder="Enter phone number"  required>
+                </td>
+            </tr>
+            <tr>
+                <td>Marital Status:</td>
+                <td>
+                    <select name="marital" id="">
+                        <option value="Select">- Select -</option>
+                        <option value="Single">Single</option>
+                        <option value="Married">Married</option>
+                        <option value="Divorced">Divorced</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Profile Photo</td>
+                <td>
+                    <input type="file" name="photo" id="" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Do you smoke?</td>
+                <td>
+                    <input type="radio" name="smoke" value="Yes">Yes
+                    <input type="radio" name="smoke" value="No">No
+                </td>
+            </tr>
+            <tr>
+                <td>What are your hobbies</td>
+                <td>
+                    <input type="checkbox" name="dancing" value="dancing">Dancing
+                    <input type="checkbox" name="cooking" value="cooking">Cooking
+                    <input type="checkbox" name="travelling" value="travelling">Travelling
+                    <input type="checkbox" name="praying" value="praying">Praying
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" name="password" id="" placeholder="Enter password" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Describe yourself</td>
+                <td>
+                    <textarea name="describe" id="" cols="50" rows="10" placeholder="write your message here..."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Nationality</td>
+                <td>
+                    <input type="text" name="country" id="" placeholder="Select country of origin" list="country">
+                    <datalist id="country">
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="Niger">Niger</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="Cameroon">Cameroon</option>
+                        <option value="Algeria">Algeria</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Morocco">Morocco</option>
+                        <option value="Egypt">Egypt</option>
+                        <option value="Zambia">Zambia</option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="reset" title="Reset">Reset</button>
+                    <button type="submit" name="submit" title="Submit">Submit </button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
